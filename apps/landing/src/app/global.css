@@ -1,0 +1,25 @@
+@import url("../../../../libs/ui/src/styles/global.css");
+
+
+.PhoneInputInput {
+  background-color: var(--background);
+  color: white;
+
+  &.placeholder {
+    color: var(--text-muted-foreground);
+  }
+
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+
+.PhoneInputCountrySelectArrow {
+  color: white;
+}
