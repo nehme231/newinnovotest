@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@innovo/animations": ["libs/animations/src/index.ts"],
+      "@innovo/design-system": ["libs/ui/src/ui"],
+      "@innovo/icons": ["libs/icons/src/index.ts"],
+      "@innovo/ui": ["libs/ui/src/index.ts"],
+      "@innovo/styles.css": ["libs/ui/src/styles/global.css"],
+      "@innovo/utils": ["libs/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
